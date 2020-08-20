@@ -43,7 +43,7 @@ GOOD_API_URL = 'https://buff.163.com/api/market/goods/sell_order'
 BEG_PRICE_URL_ON_STEAM = "https://steamcommunity.com/market/itemordershistogram"
 
 # cookie
-COOKIE = 'Device-Id=vNaSW7KuNh3amaqwYhsB; _ga=GA1.2.500118338.1592976292; _ntes_nnid=9e967cc09b4c7176c9568d8f3fb616a9,1594276321247; _ntes_nuid=9e967cc09b4c7176c9568d8f3fb616a9; Locale-Supported=zh-Hans; game=csgo; nts_mail_user=undefined:-1:0; UM_distinctid=173b38387f65d5-0a068e03df22d6-15366656-1aeaa0-173b38387f79eb; mail_psc_fingerprint=e144f94053fb38a0cd9128af88fbef68; r_ntcid=730:57; unbind_steam_result=; steam_info_to_bind=; _gid=GA1.2.1661433803.1597642676; _gat_gtag_UA_109989484_1=1; NTES_YD_SESS=7jAOvTCVALd2.x3.SbVPIyH_FMHknW8CvSeWk7I0gCT06KYile1XdTUQWpV.j19CDl94tch6HqYfFWT1GI5MQsAmJ._Xp2TIDlWgJdYK6HiV79B5VHZpChcQXiJBA1A0gwhSbfiVRrZwS4qnJ6KtR_JZ4bDhQKP0RuFc_0.oltPzOxTbg11VCmjoX0uw3VQtUe4vkEA4XaaeJf162FAuM_RLtYBjf9hHHh5KBHXnC2sfN; S_INFO=1597642686|0|3&80##|13381039880; P_INFO=13381039880|1597642686|1|netease_buff|00&99|bej&1597580024&netease_buff#bej&null#10#0#0|&0|null|13381039880; session=1-NhrUr3lmGvKsfFAAZrRj7vwAeEmpSJXrmMorLThiVZ7f2045864611; csrf_token=ImJhNzliMzEyYzAzNzU3Mzk2YzdjYzQ4MGRkYTE2OGVkNzYyMDNhNzAi.EhupRg.Zh1PmioqZbkS_gGB3ZO2PWw0qVs'
+COOKIE = ''
 
 # header设置
 HEADER_SET = {
