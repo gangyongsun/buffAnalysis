@@ -36,7 +36,7 @@ class API(object):
 
     '''
     @description: 根据[饰品类别组名]获取信息
-    @category_group: 饰品类别组名(刀，手枪，步枪，冲锋枪等类别组名)
+    @category_group: 刀、手套饰品类别组名
     @quality:饰品品质
     @exterior:皮肤外观磨损
     @page_num:页数

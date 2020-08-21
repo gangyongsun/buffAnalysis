@@ -19,19 +19,20 @@ EXTERIOR = {'崭新出厂': 'wearcategory0', '略有磨损': 'wearcategory1', '�
             '无涂装': 'wearcategoryna'}
 
 # 冷门刀
-COLD_GOODS = ['短剑','鲍伊猎刀','暗影双匕', '折刀', '求生匕首', '流浪者匕首', '系绳匕首', '骷髅匕首']
+COLD_GOODS = ['短剑', '鲍伊猎刀', '暗影双匕', '折刀', '求生匕首', '流浪者匕首', '系绳匕首', '骷髅匕首']
 # '鲍伊猎刀',
 
 
 # 冷门皮肤
-COLD_SKINS = ['屠夫','大马士革钢','夜色','蓝钢','自动化 (崭新出厂)', '传说 (崭新出厂)', '深红之网 (崭新出厂)', '黑色层压板', '致命紫罗兰', '表面淬火', '枯焦之色', '澄澈之水', '自由之手', '噩梦之夜', '人工染色', '狩猎网格', '北方森林', '都市伪装',
+COLD_SKINS = ['屠夫', '大马士革钢', '夜色', '蓝钢', '自动化 (崭新出厂)', '传说 (崭新出厂)', '深红之网 (崭新出厂)', '黑色层压板', '致命紫罗兰', '表面淬火', '枯焦之色', '澄澈之水', '自由之手', '噩梦之夜', '人工染色', '狩猎网格',
+              '北方森林', '都市伪装',
               '森林 DDPAT']
 
 # 饰品类别
-CATEGORY_GROUP = {'刀': 'knife', '手枪': 'pistol', '步枪': 'rifle', '冲锋枪': 'smg', '霰弹枪': 'shotgun', '机枪': 'machinegun', '手套': 'hands'}
+CATEGORY_GROUP = {'手套': 'hands', '刀': 'knife', '手枪': 'pistol', '步枪': 'rifle', 'AK-47': 'weapon_ak47','M4A4':'weapon_m4a1','M4A1':'weapon_m4a1_silencer','AWP':'weapon_awp'}
 
 # 饰品品质
-QUALITY = {'普通': 'unusual', '暗金': 'unusual_strange'}
+QUALITY = {'星普通': 'unusual', '星暗金': 'unusual_strange', '普通': 'normal', '暗金': 'strange'}
 
 # 获取所有商品API URL
 GOODS_API_URL = 'https://buff.163.com/api/market/goods'
@@ -43,7 +44,7 @@ GOOD_API_URL = 'https://buff.163.com/api/market/goods/sell_order'
 BEG_PRICE_URL_ON_STEAM = "https://steamcommunity.com/market/itemordershistogram"
 
 # cookie
-COOKIE = ''
+COOKIE = 'Device-Id=vNaSW7KuNh3amaqwYhsB; _ga=GA1.2.500118338.1592976292; _ntes_nnid=9e967cc09b4c7176c9568d8f3fb616a9,1594276321247; _ntes_nuid=9e967cc09b4c7176c9568d8f3fb616a9; Locale-Supported=zh-Hans; game=csgo; nts_mail_user=undefined:-1:0; UM_distinctid=173b38387f65d5-0a068e03df22d6-15366656-1aeaa0-173b38387f79eb; mail_psc_fingerprint=e144f94053fb38a0cd9128af88fbef68; r_ntcid=730:57; unbind_steam_result=; steam_info_to_bind=; _gid=GA1.2.1661433803.1597642676; _gat_gtag_UA_109989484_1=1; NTES_YD_SESS=7jAOvTCVALd2.x3.SbVPIyH_FMHknW8CvSeWk7I0gCT06KYile1XdTUQWpV.j19CDl94tch6HqYfFWT1GI5MQsAmJ._Xp2TIDlWgJdYK6HiV79B5VHZpChcQXiJBA1A0gwhSbfiVRrZwS4qnJ6KtR_JZ4bDhQKP0RuFc_0.oltPzOxTbg11VCmjoX0uw3VQtUe4vkEA4XaaeJf162FAuM_RLtYBjf9hHHh5KBHXnC2sfN; S_INFO=1597642686|0|3&80##|13381039880; P_INFO=13381039880|1597642686|1|netease_buff|00&99|bej&1597580024&netease_buff#bej&null#10#0#0|&0|null|13381039880; session=1-NhrUr3lmGvKsfFAAZrRj7vwAeEmpSJXrmMorLThiVZ7f2045864611; csrf_token=ImJhNzliMzEyYzAzNzU3Mzk2YzdjYzQ4MGRkYTE2OGVkNzYyMDNhNzAi.EhupRg.Zh1PmioqZbkS_gGB3ZO2PWw0qVs'
 
 # header设置
 HEADER_SET = {
@@ -65,6 +66,11 @@ HEADER_SET = {
 # 文件生成目录
 RATE_FILE = './rate.txt'
 RATE_STRANGE_FILE = './rate_strange.txt'
+HANDS_FILE = './hands.txt'
+AK47_FILE = './AK47.txt'
+M4A4_FILE = './M4A4.txt'
+M4A1_FILE = './M4A1.txt'
+AWP_FILE = './AWP.txt'
 RATE_BEG_FILE = './beg.txt'
 
 # 编码
